@@ -1,0 +1,273 @@
+.PlayerSongImage{
+  /* width: 5%; */
+  max-width: 100px;
+  width: 100%;
+  max-height: 100px;
+  height: 100%;
+  display: flex;
+}
+.PlayerSongTittle{
+  /* width: 14.6%; */
+  display: flex;
+  flex-direction: column;
+  margin-top: 27px;
+  margin-bottom: 26px;
+  height: 100px;
+}
+.PlayerSongBoldTitle{
+  /* padding-top: 27px; */
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: -0.3px;
+}
+.PlayerSongLightTitle{
+  /* padding-bottom: 26px; */
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 23px;
+  letter-spacing: -0.3px;
+  color: #596675;
+}
+.PlayerSeparator{
+  margin-left: 65px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 1px;
+  height: 40px;
+  /* margin-left: 75px; */
+  /* left: 299px; */
+}
+.PlayerControls{      /* -----> Player Controls <----- */
+  display: flex;
+  flex-direction: row;
+  max-width: 182px;
+  height: 50px;
+  margin-left: 50px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.PreviousButton{
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.PreviousImage{
+  height: 20px;
+  width: 16px;
+}
+.PlayButton{
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.PlayImage{
+  /* height: 50px;
+  width: 50px; */
+  height: 20px;
+  width: 20px;
+  padding-top: 15px;
+  align-items: center;
+}
+.NextButton{
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.NextImage{
+  height: 20px;
+  width: 16px;
+}
+.PlayerTime{                   /* -----> Player Time <----- */
+  margin-left: 50px;
+  margin-top: 39px;
+  margin-bottom: 38px;
+  margin-right: 50px;
+  width: 613px;
+  height: 23px;
+  display: flex;
+  flex-direction: row;
+}
+.StartTime{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 23px;
+  letter-spacing: -0.3px;
+}
+.SliderRange{
+  padding-left: 20px;
+  max-width: 518px;
+  width: 100%;
+  padding-top: 2px;
+
+}
+.EndTime{
+  padding-left: 20px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 23px;
+  text-align: right;
+  letter-spacing: -0.3px;
+}
+.SongActions{                   /* -----> Song Actions <----- */
+  margin-top: 40px;
+  margin-right: 40px;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: row;
+}
+.AddSongIcon{
+  padding-left: 0px;
+}
+.AddSongImage{
+  width: 15px;
+  height: 20px;
+}
+.RepeatSongIcon{
+  padding-left: 50px;
+}
+.RepeatSongImage{
+  width: 20px;
+  height: 17px;
+}
+.VolumeIcon{
+  padding-left: 50px;
+}
+.VolumeImage{
+  width: 20px;
+  height: 14px;
+}
+.musicImage{
+  /* width: 60px; */
+  width: 100%;
+  
+  /* padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px; */
+}
+.strightlineImage{
+  width: 30px;
+}
+.backwardImage{
+  width: 25px;
+}
+.playImage{
+  width: 20px;
+}
+.forwardImage{
+  width: 29px;
+}
+.timing{
+  width: 5%;
+  display: flex;
+  background-color: coral;
+}
+.rangeIcons{
+  width: auto;
+  background-color: violet;
+}
+.rangeSize{
+  width: 35%;
+}
+.range1{
+  width: 100%;
+  border-radius: 10%;
+  cursor: pointer;
+}
+.addPlaylistImage{
+  width: 20px;
+}
+.repeatImage{
+  width: 20px;
+}
+.volumeImage{
+  width: 20px;
+}
+  
+
+
+
+/* ----Portrait mode table--- */
+.PlayerPortraitMode{
+  display: grid;
+  grid-template-columns: 30% 70%;
+  /* background-color: purple; */
+}
+.FirstDivision{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  /* background-color: rgb(53, 26, 224); */
+}
+.SecondDivision{
+  display: grid;
+  grid-template-rows: 50% 50%;
+  /* background-color: seagreen; */
+}
+.SecondDivisionPlayer{
+  display: grid;
+  grid-template-columns: 15% 65% 15%;
+  /* background-color: tomato; */
+  grid-gap: 1px;
+}
+.FirstDivisionSongTitle{
+  padding-top: 14px;
+  text-align: center;
+}
+.timingPortraitMode{
+  font-size: 14px;
+  text-align: center;
+}
+.SecondDivisionPlayerControls{
+  display: grid;
+  grid-template-columns: 16% 16% 16% 16% 16% 16% ;
+}
+.backwardImagePortraitMode{
+  width: 25px;
+}
+.playImagePortraitMode{
+  width: 25px;
+}
+.forwardImagePortraitMode{
+  width: 25px;
+}
+.addPlaylistImagePortraitMode{
+  width: 20px;
+}
+.repeatImagePortraitMode{
+  width: 20px;
+}
+.volumeImagePortraitMode{
+  width: 20px;
+}
+
+
+
+
+/* 
+.secondDivisionTr1{
+  width: 100%;
+  height: 50%;
+  background-color: red;
+}
+.secondDivisionTr2{
+  
+  background-color: steelblue;
+}
+.timingPortraitMode{
+  position: fixed;
+  width: 10%;
+}
+.timingPortraitMode2{
+  position: fixed;
+  width: 10%; 
+}
+.rangePortraitMode{
+  width: 80%;
+  border-radius: 10%;
+  cursor: pointer;
+} */

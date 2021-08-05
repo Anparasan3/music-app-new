@@ -1,0 +1,21 @@
+.AppMain{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.FirstComponent{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: row;
+}
+.SecondComponent{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+/* body{
+    position: absolute;
+    padding: 0px;
+    margin: 0px;
+    background: none;
+} */

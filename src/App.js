@@ -1,25 +1,39 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import LoginPage from './LoginPage/LoginPage';
+import MusicApp from './musicapp/MusicApp';
+import CreateAccount from './LoginPage/CreateAccount';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export default function App(){
+    //const[authorized, setAuthorized] = useState(false);
+    return(
+        <BrowserRouter>
+            <Switch>
+                <Route exact path="/" component={LoginPage}/>
+                <Route path="/create-account" component={CreateAccount}/>
+                <Route path="/musicapp" component={MusicApp}/>
+            </Switch>
+        </BrowserRouter>
+    );
 }
 
-export default App;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{/* <Route exact path="/musicapp" component={()=><MusicApp authorized={false}/>}/> */}
+
+                {/* <Route exact path="/" component={() => <LoginPage authorized={authorized} setAuthorized={setAuthorized}/>}/>
+                <Route path="/musicapp" component = {() => <MusicApp authorized={authorized} setAuthorized={setAuthorized}/> }/> */}

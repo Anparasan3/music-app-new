@@ -1,0 +1,89 @@
+.Logo{
+    position: absolute;
+    left: 13.38%;
+    top: 5.228%;
+    right: 32.14%;
+    bottom: 88.235%;
+}
+.LogoImage{
+  width: 100%;
+  height: auto;
+}
+.Icon{
+  width: 40%;
+}
+.musicimage{
+    width: 40px;
+}
+.LogoTable{
+  padding-left: 8px;
+}
+.logoText{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: -0.3px;
+}
+.logoLightText{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 23px;
+  letter-spacing: -0.3px;
+  color: #596675;
+}
+.Leftmenu{
+    position: absolute;
+    left: 13.38%;
+    right: 0.33%;
+    top: 19.60%;
+    bottom: 19.60%;
+    overflow: auto;
+}
+.leftMenuTable{
+    width: 100%;
+    font-size: 16px;
+}
+.changeCursor{
+  cursor: pointer;
+}
+.leftMenuTableTd{
+    height: 30px;
+}
+.PinkColorTittle{
+  color: rgb(223, 26, 196);
+}
+.PinkColorLine{
+  width: 1px;
+  background-color: rgb(223, 26, 196);
+}
+.leftTableContent{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 23px;
+  letter-spacing: -0.3px;
+}
+.playlist{
+    width: 20px;
+}
+.leftPlaylistAdd{
+  width: 20px;
+}
+.LeftPlaylist{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 23px;
+  letter-spacing: -0.3px;
+
+  color: #596675;
+}
+/* .leftTableLast{
+  background-color: rgb(226, 43, 217);
+} */
