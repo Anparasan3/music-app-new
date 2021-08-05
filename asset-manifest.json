@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/Anparasan3/music-app-new.git/static/css/main.ef292b9e.chunk.css",
+    "main.js": "/Anparasan3/music-app-new.git/static/js/main.348693fe.chunk.js",
+    "main.js.map": "/Anparasan3/music-app-new.git/static/js/main.348693fe.chunk.js.map",
+    "runtime-main.js": "/Anparasan3/music-app-new.git/static/js/runtime-main.8a21e02c.js",
+    "runtime-main.js.map": "/Anparasan3/music-app-new.git/static/js/runtime-main.8a21e02c.js.map",
+    "static/css/2.6ef2fac9.chunk.css": "/Anparasan3/music-app-new.git/static/css/2.6ef2fac9.chunk.css",
+    "static/js/2.230b40b9.chunk.js": "/Anparasan3/music-app-new.git/static/js/2.230b40b9.chunk.js",
+    "static/js/2.230b40b9.chunk.js.map": "/Anparasan3/music-app-new.git/static/js/2.230b40b9.chunk.js.map",
+    "index.html": "/Anparasan3/music-app-new.git/index.html",
+    "static/css/2.6ef2fac9.chunk.css.map": "/Anparasan3/music-app-new.git/static/css/2.6ef2fac9.chunk.css.map",
+    "static/css/main.ef292b9e.chunk.css.map": "/Anparasan3/music-app-new.git/static/css/main.ef292b9e.chunk.css.map",
+    "static/js/2.230b40b9.chunk.js.LICENSE.txt": "/Anparasan3/music-app-new.git/static/js/2.230b40b9.chunk.js.LICENSE.txt",
+    "static/media/Logo.dff964f5.png": "/Anparasan3/music-app-new.git/static/media/Logo.dff964f5.png",
+    "static/media/ModeIconDark.edd548af.png": "/Anparasan3/music-app-new.git/static/media/ModeIconDark.edd548af.png",
+    "static/media/NotificationIconDark.07106060.png": "/Anparasan3/music-app-new.git/static/media/NotificationIconDark.07106060.png",
+    "static/media/NotificationIconLight.3c90dd96.png": "/Anparasan3/music-app-new.git/static/media/NotificationIconLight.3c90dd96.png",
+    "static/media/OpenTurf.57249fbf.png": "/Anparasan3/music-app-new.git/static/media/OpenTurf.57249fbf.png",
+    "static/media/SearchIconDark.70ee0290.png": "/Anparasan3/music-app-new.git/static/media/SearchIconDark.70ee0290.png",
+    "static/media/SearchIconLight.265a3858.png": "/Anparasan3/music-app-new.git/static/media/SearchIconLight.265a3858.png",
+    "static/media/SeparatorIconDark.a42fafa6.png": "/Anparasan3/music-app-new.git/static/media/SeparatorIconDark.a42fafa6.png",
+    "static/media/SeparatorIconLight.c087caab.png": "/Anparasan3/music-app-new.git/static/media/SeparatorIconLight.c087caab.png",
+    "static/media/SettingsIconDark.8eeccc7d.png": "/Anparasan3/music-app-new.git/static/media/SettingsIconDark.8eeccc7d.png",
+    "static/media/SettingsIconLight.59ebb4bb.png": "/Anparasan3/music-app-new.git/static/media/SettingsIconLight.59ebb4bb.png",
+    "static/media/ShuffleIconDark.dabc2964.png": "/Anparasan3/music-app-new.git/static/media/ShuffleIconDark.dabc2964.png",
+    "static/media/Song Image.1a0af6bc.png": "/Anparasan3/music-app-new.git/static/media/Song Image.1a0af6bc.png",
+    "static/media/SoundIconDark.bad11847.png": "/Anparasan3/music-app-new.git/static/media/SoundIconDark.bad11847.png",
+    "static/media/CreateAccount.css": "/Anparasan3/music-app-new.git/static/media/bg.b87246ae.jpeg",
+    "static/media/LoginPage.css": "/Anparasan3/music-app-new.git/static/media/btn1.1cfbb6b5.jpeg",
+    "static/media/song1.7fc833c5.mp3": "/Anparasan3/music-app-new.git/static/media/song1.7fc833c5.mp3"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8a21e02c.js",
+    "static/css/2.6ef2fac9.chunk.css",
+    "static/js/2.230b40b9.chunk.js",
+    "static/css/main.ef292b9e.chunk.css",
+    "static/js/main.348693fe.chunk.js"
+  ]
+}
