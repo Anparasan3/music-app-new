@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/music-app-new/static/css/main.1ab910f1.chunk.css",
-    "main.js": "/music-app-new/static/js/main.6dc65041.chunk.js",
-    "main.js.map": "/music-app-new/static/js/main.6dc65041.chunk.js.map",
+    "main.css": "/music-app-new/static/css/main.4abd0904.chunk.css",
+    "main.js": "/music-app-new/static/js/main.8736b9b6.chunk.js",
+    "main.js.map": "/music-app-new/static/js/main.8736b9b6.chunk.js.map",
     "runtime-main.js": "/music-app-new/static/js/runtime-main.fe25d528.js",
     "runtime-main.js.map": "/music-app-new/static/js/runtime-main.fe25d528.js.map",
     "static/css/2.6ef2fac9.chunk.css": "/music-app-new/static/css/2.6ef2fac9.chunk.css",
-    "static/js/2.815b4f3b.chunk.js": "/music-app-new/static/js/2.815b4f3b.chunk.js",
-    "static/js/2.815b4f3b.chunk.js.map": "/music-app-new/static/js/2.815b4f3b.chunk.js.map",
+    "static/js/2.1dcd54ee.chunk.js": "/music-app-new/static/js/2.1dcd54ee.chunk.js",
+    "static/js/2.1dcd54ee.chunk.js.map": "/music-app-new/static/js/2.1dcd54ee.chunk.js.map",
     "index.html": "/music-app-new/index.html",
     "static/css/2.6ef2fac9.chunk.css.map": "/music-app-new/static/css/2.6ef2fac9.chunk.css.map",
-    "static/css/main.1ab910f1.chunk.css.map": "/music-app-new/static/css/main.1ab910f1.chunk.css.map",
-    "static/js/2.815b4f3b.chunk.js.LICENSE.txt": "/music-app-new/static/js/2.815b4f3b.chunk.js.LICENSE.txt",
+    "static/css/main.4abd0904.chunk.css.map": "/music-app-new/static/css/main.4abd0904.chunk.css.map",
+    "static/js/2.1dcd54ee.chunk.js.LICENSE.txt": "/music-app-new/static/js/2.1dcd54ee.chunk.js.LICENSE.txt",
     "static/media/Logo.dff964f5.png": "/music-app-new/static/media/Logo.dff964f5.png",
     "static/media/ModeIconDark.edd548af.png": "/music-app-new/static/media/ModeIconDark.edd548af.png",
     "static/media/NotificationIconDark.07106060.png": "/music-app-new/static/media/NotificationIconDark.07106060.png",
@@ -27,14 +27,13 @@
     "static/media/Song Image.1a0af6bc.png": "/music-app-new/static/media/Song Image.1a0af6bc.png",
     "static/media/SoundIconDark.bad11847.png": "/music-app-new/static/media/SoundIconDark.bad11847.png",
     "static/media/CreateAccount.css": "/music-app-new/static/media/bg.b87246ae.jpeg",
-    "static/media/LoginPage.css": "/music-app-new/static/media/btn1.1cfbb6b5.jpeg",
     "static/media/song1.7fc833c5.mp3": "/music-app-new/static/media/song1.7fc833c5.mp3"
   },
   "entrypoints": [
     "static/js/runtime-main.fe25d528.js",
     "static/css/2.6ef2fac9.chunk.css",
-    "static/js/2.815b4f3b.chunk.js",
-    "static/css/main.1ab910f1.chunk.css",
-    "static/js/main.6dc65041.chunk.js"
+    "static/js/2.1dcd54ee.chunk.js",
+    "static/css/main.4abd0904.chunk.css",
+    "static/js/main.8736b9b6.chunk.js"
   ]
 }
