@@ -6,7 +6,10 @@ import { Content } from './Style/ContentStyled';
 import TopMenu from "./TopMenu";
 import PopularArtists from './PopularArtists';
 import Podcasts  from "./Podcasts";
-import Discover from './Discover';
+
+//import Discover from './Discover';
+//import JsonImage from './JsonImage';
+import DiscoverNew from './DiscoverNew';
 
 export default function Rigthbox(props){
     console.log(props.width);
@@ -85,7 +88,9 @@ export default function Rigthbox(props){
                         <div className="topContentOption"> ... </div>  
                     </div> 
                     <div className="discover"> 
-                        <Discover/> 
+                        {/* <Discover/>  */}
+                        {/* <JsonImage/> */}
+                        <DiscoverNew/>
                     </div>              
                 </div>
                 <PopularArtists theme={props.theme} setTheme={props.setTheme} width={props.width}/>

@@ -54,7 +54,7 @@
   right: 31.18%;
   bottom: 6.04%;
   left: 6.13%;
-  overflow: auto;
+  /* overflow: auto; */
 }
 .background{
   width: 100%;
@@ -385,5 +385,14 @@
 
 
 .discover{
+  /* position: absolute;  */
+  /* position: relative;
+  margin-top: 4%;
+  background-color: chartreuse; */
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  top: 10%;
+  bottom: 0%;
   overflow: auto;
 }

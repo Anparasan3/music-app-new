@@ -7,7 +7,8 @@ import OpenTurf from './source/OpenTurf.png';
 import loginData from './loginData.json';
 
 
-export default function LoginPage() {
+
+export default function LoginPage(props) {
     let history = useHistory();
     const [loginUser, setLoginUser] = useState("");
     const [loginUserPassword, setLoginUserPassword] = useState("");
@@ -50,24 +51,32 @@ export default function LoginPage() {
             <h2>OpenTurf Technologies Private Limited</h2>
             <div className="OpenTurf"> <img src={OpenTurf} alt="OpenTurf" /> </div>
             <form onSubmit={ () => handleSubmit()}>
-                <div className="gooleLogin">
+                <div className="googleLogin">
                     <GoogleLogin
                         clientId="323198882223-tfl6vhoaoghpnr6oh7k43hc7un2mermd.apps.googleusercontent.com"
                         buttonText="Login with google"
+                        render={renderProps => (
+                            <button onClick={renderProps.onClick} disabled={renderProps.disabled} className="googleLoginButton">Login with google</button>
+                        )}
                         onSuccess={responseGoogle}
                         onFailure={responseGoogleFailure}
                         cookiePolicy={'single_host_origin'}
                         type = "submit"
+                        icon="go-google"
                     /> 
                 </div>
                 <div className="facebookLogin">
                     <FacebookLogin
                         appId="189919476454767"
                         size="small"
-                        autoLoad={true}
+                        autoLoad={false}
                         fields="name,email,picture"
                         onClick={componentClicked}
                         callback={responseFacebook} 
+                        render={renderProps => (
+                            <button onClick={renderProps.onClick} className="faceBookLoginButton">Login with facebook</button>
+                        )}
+                        icon="fa-facebook"
                     />
                 </div>
                 <div className="userName">
@@ -76,6 +85,8 @@ export default function LoginPage() {
                         type = "text"
                         name = "username"
                         className="userNameInput" 
+                        pattern="(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                        title="Username must contain First leter capital and remaining lower case letter atleast 8 character" 
                         placeholder = "example@gmail.com (or) Example" 
                         required
                         onChange={(event)=> {
@@ -110,6 +121,18 @@ export default function LoginPage() {
     );
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

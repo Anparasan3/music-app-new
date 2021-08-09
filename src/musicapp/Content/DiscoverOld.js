@@ -18,13 +18,11 @@ export default class Discover extends React.Component {
         this.setState({
           items: this.state.items.concat(Array.from({ length: 20 }))
         });
-      }, 1500);
+      }, 1);
     };
     render() {
       return (
         <div>
-          {/* <h1>demo: react-infinite-scroll-component</h1>
-          <hr /> */}
           <InfiniteScroll
             dataLength={this.state.items.length}
             next={this.fetchMoreData}

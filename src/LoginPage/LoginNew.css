@@ -1,0 +1,174 @@
+/* html,body{
+    /* background-image: url('https://getwallpapers.com/wallpaper/full/5/7/1/15941.jpg'); */
+    /* background-image: url('https://getwallpapers.com/wallpaper/full/a/4/0/34819.jpg'); * /
+    background-image: url('http://getwallpapers.com/wallpaper/full/a/5/d/544750.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    font-family: 'Numans', sans-serif;
+} */
+/* @import url('https://fonts.googleapis.com/css?family=Numans'); */
+
+body{
+    background-image: url('http://getwallpapers.com/wallpaper/full/a/5/d/544750.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    font-family: 'Numans', sans-serif;
+}
+.container{
+    height: 100%;
+    align-content: center;
+    /* text-align: center; */
+    /* padding: 100px; */
+}
+.container-content{
+    display: block;
+    margin: auto;
+    margin-top: 100px;
+    height: 370px;
+    /* margin-top: auto;
+    margin-bottom: auto; */
+    width: 350px;
+    background-color: rgba(0,0,0,0.5) !important;
+    padding: 50px;
+}
+.card-header h3{
+    color: white;
+    text-align: center;
+}
+.signInIcons{
+    display: flex;
+    font-size: 60px;
+    color: #FFC312;
+    justify-content: space-around;
+}
+.signInIcons span:hover{
+    color: white;
+    cursor: pointer;
+}
+.cardBody{
+    position: relative;
+    margin-top: 20px;
+}
+.UserNameInput{
+    position: relative;
+    width: 100%;
+    height: 38px;
+}
+.UserNameInput-span{
+    position: relative;
+    float: left;
+    width: 10.5%;
+    text-align: center;
+    padding: 2px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #FFC312;
+    border:0 !important;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+.UserNameInputinput{
+    position: relative;
+    height: 36px;
+    float: right;
+    border: 0 !important;
+    width: 87.2%;
+    background-color: rgb(252, 250, 252);
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+.UserNameInputinput:focus{
+    outline: none;
+}
+.UserPasswordInput{
+    position: relative;
+    margin-top: 20px;
+    width: 100%;
+    height: 38px;
+}
+.CheckBox{
+    margin-top: 10px;
+    color: white;
+}
+.Submit{
+    padding-top: 5px;
+}
+.SubmitButton{
+    float: right;
+    height: 30px;
+    width: 30%;
+    border: solid 1px black;
+    border-radius: 10px;
+    background-color:  #FFC312;
+}
+.SubmitButton:hover{
+    background-color: white;
+    cursor: pointer;
+}
+.cardFooter{
+    position: relative;
+    margin-top: 50px;
+    text-align: center;
+}
+.Footer-Text{
+    color: white;
+}
+.SignUpButton{
+    color: rgb(0, 132, 255);
+}
+.SignUpButton:hover{
+    color: blue;
+}
+.Footer-text2{
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+input:focus{
+outline: 0 0 0 0  !important;
+box-shadow: 0 0 0 0 !important;
+}
+.remember{
+color: white;
+}
+.remember input
+{
+width: 20px;
+height: 20px;
+margin-left: 15px;
+margin-right: 5px;
+}
+.login_btn{
+color: black;
+background-color: #FFC312;
+width: 100px;
+}
+.login_btn:hover{
+color: black;
+background-color: white;
+}
+.links{
+color: white;
+}
+.links a{
+margin-left: 4px;
+} */
+

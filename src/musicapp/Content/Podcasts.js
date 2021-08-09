@@ -38,8 +38,7 @@ export default function Podcasts() {
                 key={image.id} 
                 // height="200px"
                 // width="300px"
-                // height="auto"
-                // width="auto"
+                className="PodcastsImg"
               />
             </div>
           )
