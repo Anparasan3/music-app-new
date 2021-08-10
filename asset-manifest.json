@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/music-app-new/static/css/main.4abd0904.chunk.css",
-    "main.js": "/music-app-new/static/js/main.1611b2ff.chunk.js",
-    "main.js.map": "/music-app-new/static/js/main.1611b2ff.chunk.js.map",
+    "main.css": "/music-app-new/static/css/main.6eca96da.chunk.css",
+    "main.js": "/music-app-new/static/js/main.13c86f09.chunk.js",
+    "main.js.map": "/music-app-new/static/js/main.13c86f09.chunk.js.map",
     "runtime-main.js": "/music-app-new/static/js/runtime-main.fe25d528.js",
     "runtime-main.js.map": "/music-app-new/static/js/runtime-main.fe25d528.js.map",
     "static/css/2.6ef2fac9.chunk.css": "/music-app-new/static/css/2.6ef2fac9.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.1dcd54ee.chunk.js.map": "/music-app-new/static/js/2.1dcd54ee.chunk.js.map",
     "index.html": "/music-app-new/index.html",
     "static/css/2.6ef2fac9.chunk.css.map": "/music-app-new/static/css/2.6ef2fac9.chunk.css.map",
-    "static/css/main.4abd0904.chunk.css.map": "/music-app-new/static/css/main.4abd0904.chunk.css.map",
+    "static/css/main.6eca96da.chunk.css.map": "/music-app-new/static/css/main.6eca96da.chunk.css.map",
     "static/js/2.1dcd54ee.chunk.js.LICENSE.txt": "/music-app-new/static/js/2.1dcd54ee.chunk.js.LICENSE.txt",
     "static/media/Logo.dff964f5.png": "/music-app-new/static/media/Logo.dff964f5.png",
     "static/media/ModeIconDark.edd548af.png": "/music-app-new/static/media/ModeIconDark.edd548af.png",
@@ -33,7 +33,7 @@
     "static/js/runtime-main.fe25d528.js",
     "static/css/2.6ef2fac9.chunk.css",
     "static/js/2.1dcd54ee.chunk.js",
-    "static/css/main.4abd0904.chunk.css",
-    "static/js/main.1611b2ff.chunk.js"
+    "static/css/main.6eca96da.chunk.css",
+    "static/js/main.13c86f09.chunk.js"
   ]
 }
