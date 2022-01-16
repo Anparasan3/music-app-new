@@ -19,16 +19,12 @@ body{
 .container{
     height: 100%;
     align-content: center;
-    /* text-align: center; */
-    /* padding: 100px; */
 }
 .container-content{
     display: block;
     margin: auto;
     margin-top: 100px;
     height: 370px;
-    /* margin-top: auto;
-    margin-bottom: auto; */
     width: 350px;
     background-color: rgba(0,0,0,0.5) !important;
     padding: 50px;

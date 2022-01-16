@@ -1,8 +1,8 @@
 import React, { useState, useEffect }from "react";
 import InfiniteScroll from "react-infinite-scroll-component";
 import axios from "axios";
-import './DiscoverNew.css';
-import { LazyLoadImage } from 'react-lazy-load-image-component';
+import './Style/DiscoverNew.css';
+//import { LazyLoadImage } from 'react-lazy-load-image-component';
 import 'react-lazy-load-image-component/src/effects/blur.css';
 
 export default function App() {
@@ -44,18 +44,10 @@ export default function App() {
             state.DataSet.map(dataset => (
                 <div className="Discover-images" key={dataset.id}>
                     <img src={dataset.url} alt={dataset.id} className="DiscoverImg"/>
-                    {/* <LazyLoadImage
-                        effect='blur'
-                        src={dataset.url} 
-                        alt={dataset.id}
-                        key=""
-                        className="DiscoverImg"
-                    /> */}
                 </div>
             ))
             }
             </div>
-        </InfiniteScroll>
-    
+        </InfiniteScroll>   
     );
 }

@@ -30,7 +30,7 @@ export default function PopularArtists(props){
                         data.PopularArtists.slice(0,NoOfPopularArtists).map((a) => {
                         return(
                             <div className="container2">
-                                <div> <img src={a.Dp} className="profile" alt="hai" /> </div>
+                                <div> <img src={a.Dp} className="profile" alt="" /> </div>
                                 <div className="PopularArtistsName">
                                     <div className="PopularArtistsFirstName"> {a.Name} </div>
                                     <div className="PopularArtistsFollowers"> {a.Followers} </div>
